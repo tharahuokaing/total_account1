@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huokaing Thara Banking System - Enterprise Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Authentication Area -->
+    <div id="loginContainer" class="auth-wrapper">
+        <div class="auth-card">
+            <h2>HT BANKING LOGIN</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="usernameInput">Username</label>
+                    <input type="text" id="usernameInput" autocomplete="off" required>
+                </div>
+                <div class="form-group">
+                    <label for="passwordInput">Password</label>
+                    <input type="password" id="passwordInput" required>
+                </div>
+                <button type="submit" class="btn-submit">Authenticate</button>
+            </form>
+            <p id="loginMessage" class="error-msg"></p>
+        </div>
+    </div>
+
+    <!-- Main Core Dashboard App Container -->
+    <div id="summaryBox" class="dashboard-wrapper" style="display: none;">
+        <header class="dashboard-header">
+            <div id="aiStatusBubble" class="status-bubble">AI CORE OFFLINE</div>
+            <button id="logoutBtn" class="btn-logout">Sign Out</button>
+        </header>
+
+        <main class="dashboard-content">
+            <!-- Dynamic Grid for 10 Dashboard Status Cards -->
+            <section id="searchContainer"></section>
+
+            <!-- Dual Panel Data Layout -->
+            <div class="data-split-container">
+                <!-- Transaction Ledger Component -->
+                <section class="ledger-panel">
+                    <div class="panel-header">
+                        <h3>Recent Network Transactions</h3>
+                        <a href="#" class="view-all-link">Export Ledger</a>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="transaction-table">
+                            <thead>
+                                <tr>
+                                    <th>Reference ID</th>
+                                    <th>Account / Target</th>
+                                    <th>Type</th>
+                                    <th>Amount</th>
+                                    <th>Timestamp</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="transactionLogBody">
+                                <!-- Dynamically filled via JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- Core Modules & Phases Component -->
+                <section class="phases-panel">
+                    <div class="panel-header">
+                        <h3>System Core Deployments</h3>
+                    </div>
+                    <ul id="phasesList" class="phases-list">
+                        <li>System initialization pending...</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="login1.js"></script>
+</body>
+</html>

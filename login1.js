@@ -17,9 +17,14 @@
     ========================================================= */
     const USERS = [
         { username: "huokaingthara", password: "huokaingthara", role: "Cybersecurity", requires2FA: false },
+        { username: "mek", password: "mek", role: "Customer", requires2FA: false },
+        { username: "test", password: "test", role: "Test User", requires2FA: false },
+        { username: "test3", password: "test3", role: "Test Customer", requires2FA: false },
+        { username: "test4", password: "test4", role: "Test Customer", requires2FA: false },
         { username: "thorn", password: "thorn", role: "Customer", requires2FA: false },
         { username: "sansopheata", password: "sansopheata", role: "Chief Executive Officer", requires2FA: false },
         { username: "chansamnang", password: "chansamnang", role: "Customer", requires2FA: false },
+        { username: "huo", password: "huo", role: "Mr. Huo (Vice President)", requires2FA: false },
         { username: "raem", password: "raem", role: "Customer", requires2FA: false },
         { username: "sengviseynea", password: "sengviseynea", role: "Chief Executive Officer", requires2FA: false },
         { username: "somsodavin", password: "somsodavin", role: "Chief Executive Officer", requires2FA: false },
@@ -31,9 +36,9 @@
         { username: "vanneat", password: "vanneat", role: "Customer", requires2FA: true },
         { username: "mengly", password: "mengly", role: "Customer", requires2FA: true },
         { username: "leyu", password: "leyu", role: "Customer", requires2FA: true },
-        { username: "test", password: "test", role: "Test User", requires2FA: true },
         { username: "huy", password: "huy", role: "Customer", requires2FA: true },
-        { username: "sengchhat", password: "sengchhat", role: "VIP Customer", requires2FA: true }
+        { username: "sengchhat1", password: "sengchhat1", role: "Credit Officer", requires2FA: true },
+        { username: "sengchhat", password: "sengchhat", role: "Director", requires2FA: true }
     ];
 
     /* =========================================================

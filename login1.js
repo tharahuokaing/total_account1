@@ -235,7 +235,7 @@
 
                 <!-- Card 6: Withdrawal -->
                 <div class="dashboard-card">
-                    <a href="https://tharahuokaing.github.io/withdrawal/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
+                    <a href="https://tharahuokaing.github.io/withdrawal_bank/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="withdrawal.jpg" alt="Withdrawal Icon" class="card-icon" style="width:150px; height:150px; object-fit: cover; border-radius: 50%;">
                         <h3>Withdrawal</h3>
                         <p>Secure Withdrawal</p>

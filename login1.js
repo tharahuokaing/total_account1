@@ -49,12 +49,12 @@
         { id: "TXN-90214", account: "Acc...8841 (Thorn)", type: "Bakong Transfer", amount: "$0", time: "00:00:00", status: "Success" },
         { id: "TXN-90215", account: "Acc...1092 (Vanneat)", type: "Interbank Pay", amount: "$0", time: "00:00:00", status: "Success" },
         { id: "TXN-90216", account: "Acc...4412 (Mengly)", type: "ATM Cash Deposit", amount: "$0", time: "00:00:00", status: "Success" },
-        { id: "TXN-90216", account: "Acc...4412 (Men)", type: "ATM Cash Withdrawal", amount: "$10,000,000", time: "07:30:00", status: "Success" },
-        { id: "TXN-90216", account: "Acc...4412 (Sengchhat)", type: "ATM Cash Withdrawal", amount: "$0", time: "00:00:00", status: "Success" },
-        { id: "TXN-90216", account: "Acc...4412 (Huokaing Thara)", type: "ATM Cash Withdrawal", amount: "$0", time: "00:00:00", status: "Success" },      
-        { id: "TXN-90216", account: "Acc...4412 (ahb)", type: "ATM Cash Withdrawal", amount: "$0", time: "00:00:00", status: "Success" },   
-        { id: "TXN-90216", account: "Acc...4412 (kuo)", type: "ATM Cash Withdrawal", amount: "$0", time: "00:00:00", status: "Success" },
-        { id: "TXN-90217", account: "Acc...0029 (Leyu)", type: "Clearing Settlement", amount: "$0", time: "00:00:00", status: "Pending" }
+        { id: "TXN-90217", account: "Acc...4412 (Men)", type: "ATM Cash Withdrawal", amount: "$10,000,000", time: "07:30:00", status: "Success" },
+        { id: "TXN-90218", account: "Acc...4412 (Sengchhat)", type: "ATM Cash Withdrawal", amount: "$0", time: "00:00:00", status: "Success" },
+        { id: "TXN-90219", account: "Acc...4412 (Huokaing Thara)", type: "ATM Cash Withdrawal", amount: "$0", time: "00:00:00", status: "Success" },      
+        { id: "TXN-90220", account: "Acc...4412 (ahb)", type: "ATM Cash Withdrawal", amount: "$0", time: "00:00:00", status: "Success" },   
+        { id: "TXN-90221", account: "Acc...4412 (kuo)", type: "ATM Cash Withdrawal", amount: "$0", time: "00:00:00", status: "Success" },
+        { id: "TXN-90222", account: "Acc...0029 (Leyu)", type: "Clearing Settlement", amount: "$0", time: "00:00:00", status: "Pending" }
     ];
 
     /* =========================================================

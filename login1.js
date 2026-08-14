@@ -48,9 +48,9 @@
     const MOCK_TRANSACTIONS = [
         { id: "TXN-90214", account: "Acc...8841 (Thorn)", type: "Bakong Transfer", amount: "$0", time: "00:00:00", status: "Success" },
         { id: "TXN-90215", account: "Acc...1092 (Vanneat)", type: "Interbank Pay", amount: "$0", time: "00:00:00", status: "Success" },
-        { id: "TXN-90216", account: "Acc...4412 (Mengly)", type: "ATM Cash Deposit", amount: "$10,000,000", time: "00:00:00", status: "Success" },
+        { id: "TXN-90216", account: "Acc...4412 (Mengly)", type: "ATM Cash Deposit", amount: "$20,000,000.00", time: "00:00:00", status: "Success" },
         { id: "TXN-90217", account: "Acc...4412 (Men)", type: "ATM Cash Withdrawal", amount: "$0", time: "07:30:00", status: "Success" },
-        { id: "TXN-90218", account: "Acc...4412 (Sengchhat)", type: "ATM Cash Withdrawal", amount: "$0", time: "00:00:00", status: "Success" },
+        { id: "TXN-90218", account: "Acc...4412 (Sengchhat)", type: "ATM Cash Withdrawal", amount: "$17,000,000.00", time: "00:00:00", status: "Success" },
         { id: "TXN-90219", account: "Acc...4412 (Huokaing Thara)", type: "ATM Cash Withdrawal", amount: "$0", time: "00:00:00", status: "Success" },      
         { id: "TXN-90220", account: "Acc...4412 (ahb)", type: "ATM Cash Withdrawal", amount: "$0", time: "00:00:00", status: "Success" },   
         { id: "TXN-90221", account: "Acc...4412 (kuo)", type: "ATM Cash Withdrawal", amount: "$0", time: "00:00:00", status: "Success" },
@@ -170,8 +170,8 @@
     function initializeDashboardData() {
         log("Dashboard active. Injecting financial records into DOM nodes...");
         if (document.getElementById("accountCount")) {
-            document.getElementById("accountCount").textContent = "$55,550,000";
-            document.getElementById("depositTotal").textContent = "$55,550,000";
+            document.getElementById("accountCount").textContent = "$55,550,000.00";
+            document.getElementById("depositTotal").textContent = "$55,550,000.00";
             document.getElementById("txCount").textContent = "0";
         }
     }
@@ -193,7 +193,7 @@
                 <div class="dashboard-card">
                     <a href="https://tharahuokaing.github.io/total_account/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="total_account.jpg" alt="Accounts Icon" class="card-icon" style="width:150px; height:150px;">
-                        <h3 id="accountCount">$55,550,000</h3>
+                        <h3 id="accountCount">$55,550,000.00</h3>
                         <p>Total Accounts</p>
                         <span class="card-link">View Details</span>
                     </a>
@@ -203,7 +203,7 @@
                 <div class="dashboard-card">
                     <a href="https://tharahuokaing.github.io/deposit/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="total_deposit.jpg" alt="Deposits Icon" class="card-icon" style="width:150px; height:150px;">
-                        <h3 id="depositTotal">$55,550,000</h3>
+                        <h3 id="depositTotal">$55,550,000.00</h3>
                         <p>Total Deposits</p>
                         <span class="card-link">View Details</span>
                     </a>
@@ -213,7 +213,7 @@
                 <div class="dashboard-card">
                     <a href="https://tharahuokaing.github.io/transaction/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="transaction_volumn.jpg" alt="Transactions Icon" class="card-icon" style="width:150px; height:150px;">
-                        <h3 id="txCount">$1,500,000</h3>
+                        <h3 id="txCount">$1,500,000.00</h3>
                         <p>Transactions Processed</p>
                         <span class="card-link">View Log</span>
                     </a>

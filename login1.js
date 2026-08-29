@@ -271,8 +271,17 @@
                     </a>
                 </div>
 
+                <!-- Card 8: Casino 2 Overview -->
+                <div class="dashboard-card">
+                    <a href="https://tharahuokaing.github.io/casino2/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
+                        <img src="casino_2.jpg" alt="Casino 2 Icon" class="card-icon" style="width:150px; height:150px; object-fit: cover; border-radius: 12px;">
+                        <h3 style="color: #f0b90b;">Casino 2</h3>
+                        <p>Crypto Exchange Overview</p>
+                        <span class="card-link" style="color: #0ecb81;">View 15 Assets</span>
+                    </a>
+                </div>
 
-                <!-- Card 8: Global Currency Calculator -->
+                <!-- Card 9: Global Currency Calculator -->
                 <div class="dashboard-card">
                     <a href="https://tharahuokaing.github.io/calculator/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="calculator.jpg" alt="Calculator Icon" class="card-icon" style="width:150px; height:150px; object-fit: cover; border-radius: 50%;">
@@ -283,7 +292,7 @@
                 </div>
 
 
-                <!-- Card 9: System Phases -->
+                <!-- Card 10: System Phases -->
                 <div class="dashboard-card">
                     <a href="https://tharahuokaing.github.io/total_phase/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="system_phase.jpg" alt="Phases Icon" class="card-icon" style="width:150px; height:150px;">
@@ -293,7 +302,7 @@
                     </a>
                 </div>
 
-                <!-- Card 10: Financial Compliance -->
+                <!-- Card 11: Financial Compliance -->
                 <div class="dashboard-card">
                     <a href="https://tharahuokaing.github.io/financial_compliance/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="financial_complaint.jpg" alt="Compliance Icon" class="card-icon" style="width:150px; height:150px;">
@@ -303,7 +312,7 @@
                     </a>
                 </div>
 
-                <!-- Card 11: Interbank Network -->
+                <!-- Card 12: Interbank Network -->
                 <div class="dashboard-card">
                     <a href="https://tharahuokaing.github.io/interbank_network/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="interbank_network.jpg" alt="Bakong Icon" class="card-icon" style="width:150px; height:150px;">
@@ -313,7 +322,7 @@
                     </a>
                 </div>
 
-                <!-- Card 12: Security Architecture -->
+                <!-- Card 13: Security Architecture -->
                 <div class="dashboard-card">
                     <a href="https://tharahuokaing.github.io/security_architecture/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="security_architecture.jpg" alt="SOC Icon" class="card-icon" style="width:150px; height:150px;">
@@ -323,7 +332,7 @@
                     </a>
                 </div>
 
-                <!-- Card 13: Pending Clearings -->
+                <!-- Card 14: Pending Clearings -->
                 <div class="dashboard-card">
                     <a href="https://tharahuokaing.github.io/pending_clearing/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="pending_clearing.jpg" alt="Clearing Icon" class="card-icon" style="width:150px; height:150px;">
@@ -333,7 +342,7 @@
                     </a>
                 </div>
 
-                <!-- Card 14: Active Audits -->
+                <!-- Card 15: Active Audits -->
                 <div class="dashboard-card">
                     <a href="https://tharahuokaing.github.io/active_audit/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="active_audit.jpg" alt="Audits Icon" class="card-icon" style="width:150px; height:150px;">

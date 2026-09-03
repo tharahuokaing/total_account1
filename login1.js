@@ -16,11 +16,26 @@
        USERS MOCK DATABASE
     ========================================================= */
     const USERS = [
-        { username: "huokaingthara", password: "huokaingthara", role: "Cybersecurity", requires2FA: false },
+        { username: "huokaingthara", password: "huokaingthara", role: "Chief Cybersecurity Officer", requires2FA: false },
+        { username: "huokaingthara1", password: "huokaingthara1", role: "Head of Marketing", requires2FA: false },
+        { username: "huokaingtharoth", password: "huokaingtharoth", role: "VIP Customer", requires2FA: false },
+        { username: "diamond", password: "diamond", role: "VIP Customer", requires2FA: false },
+        { username: "nouvichaka", password: "nouvichaka", role: "Chief of Credit Officer", requires2FA: false },
+        { username: "do", password: "do", role: "VIP Customer", requires2FA: false },
+        { username: "sokrachana", password: "sokrachana", role: "VIP Customer", requires2FA: false },
+        { username: "sokkhemera", password: "sokkhemera", role: "VIP Customer", requires2FA: false },
+        { username: "dalin", password: "dalin", role: "VIP Customer", requires2FA: false },
+        { username: "khouch", password: "khouch", role: "VIP Customer", requires2FA: false },
+        { username: "dom", password: "dom", role: "Chief Executive Officer", requires2FA: false },
+        { username: "kimmuy", password: "kimmuy", role: "Secretary", requires2FA: false },
+        { username: "kimmuy1", password: "kimmuy1", role: "Chief of Customer Service", requires2FA: false },
+        { username: "jav", password: "jav", role: "Chief of Security", requires2FA: false },
+        { username: "men", password: "men", role: "Chief Executive Officer", requires2FA: false },
+        { username: "man", password: "man", role: "VIP Customer", requires2FA: false },
+        { username: "kuo", password: "kuo", role: "Director", requires2FA: false },
         { username: "mek", password: "mek", role: "Customer", requires2FA: false },
-        { username: "kuo", password: "kuo", role: "Customer", requires2FA: false },
+        { username: "b", password: "b", role: "Ah b (Vice President and Director)", requires2FA: false },
         { username: "test", password: "test", role: "Test User", requires2FA: false },
-        { username: "test4", password: "test4", role: "Test Customer", requires2FA: false },
         { username: "thorn", password: "thorn", role: "Customer", requires2FA: false },
         { username: "sansopheata", password: "sansopheata", role: "Chief Executive Officer", requires2FA: false },
         { username: "chansamnang", password: "chansamnang", role: "Customer", requires2FA: false },
@@ -37,11 +52,12 @@
         { username: "mengly", password: "mengly", role: "Customer", requires2FA: true },
         { username: "leyu", password: "leyu", role: "Customer", requires2FA: true },
         { username: "huy", password: "huy", role: "Customer", requires2FA: true },
-        { username: "ahb", password: "ahb", role: "Mr. B (Vice President)", requires2FA: true },
-        { username: "sengchhat1", password: "sengchhat1", role: "Credit Officer", requires2FA: true },
+        { username: "sengchhat1", password: "sengchhat1", role: "VIP Customer", requires2FA: true },
+        { username: "nita", password: "nita", role: "Secretary", requires2FA: true },
+        { username: "khenlyda", password: "khenlyda", role: "Secretary", requires2FA: true },
         { username: "sengchhat", password: "sengchhat", role: "Director", requires2FA: true }
     ];
-
+    
     /* =========================================================
        MOCK TRANSACTION SOURCE DATA
     ========================================================= */

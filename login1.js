@@ -229,7 +229,7 @@
 
                 <!-- Card 2: Total Deposits -->
                 <div class="dashboard-card">
-                    <a href="https://tharahuokaing.github.io/deposit/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
+                    <a href="https://tharahuokaing.github.io/deposit1/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="total_deposit.jpg" alt="Deposits Icon" class="card-icon" style="width:150px; height:150px;">
                         <h3 id="depositTotal">$8,430,043.00</h3>
                         <p>Total Deposits</p>
@@ -239,7 +239,7 @@
 
                 <!-- Card 3: Transaction Volumes -->
                 <div class="dashboard-card">
-                    <a href="https://tharahuokaing.github.io/transaction/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
+                    <a href="https://tharahuokaing.github.io/transaction1/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="transaction_volumn.jpg" alt="Transactions Icon" class="card-icon" style="width:150px; height:150px;">
                         <h3 id="txCount">68,619,957.00</h3>
                         <p>Transactions Processed</p>
@@ -259,7 +259,7 @@
 
                 <!-- Card 5: Legend Cinema Portal -->
                 <div class="dashboard-card">
-                    <a href="https://tharahuokaing.github.io/cinema/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
+                    <a href="https://tharahuokaing.github.io/cinema1/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="cinema.jpg" alt="Cinema Icon" class="card-icon" style="width:150px; height:150px; object-fit: cover; border-radius: 50%;">
                         <h3>Cinema</h3>
                         <p>Legend Booking & Pay</p>
@@ -269,7 +269,7 @@
 
                 <!-- Card 6: Withdrawal -->
                 <div class="dashboard-card">
-                    <a href="https://tharahuokaing.github.io/withdrawal_bank/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
+                    <a href="https://tharahuokaing.github.io/withdrawal_bank1/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="withdrawal.jpg" alt="Withdrawal Icon" class="card-icon" style="width:150px; height:150px; object-fit: cover; border-radius: 50%;">
                         <h3>Withdrawal</h3>
                         <p>Secure Withdrawal</p>

@@ -78,7 +78,7 @@
         { id: "TXN-KN-90241", party: "Acc...5541 (Chansamnang)", network: "Real-time Gross Settlement", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
         { id: "TXN-KN-90242", party: "Acc...5541 (Nouvichaka)", network: "Real-time Gross Settlement", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
         { id: "TXN-KN-90243", party: "Acc...5541 (Men)", network: "Interbank ISO Gateway", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
-        { id: "TXN-KN-90244", party: "Acc...9912 (kimmuy)", network: "Bakong Transfer Sweep", direction: "outflow", amount: 68619957.00.00, time: "00:00:00", status: "Success" },
+        { id: "TXN-KN-90244", party: "Acc...9912 (kimmuy)", network: "Bakong Transfer Sweep", direction: "outflow", amount: 10,000,000.00, time: "00:00:00", status: "Success" },
         { id: "TXN-KN-90245", party: "Acc...9912 (jav)", network: "Bakong Transfer Sweep", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
         { id: "TXN-KN-90246", party: "Acc...9912 (dom)", network: "Bakong Transfer Sweep", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
         { id: "TXN-KN-90247", party: "Acc...9912 (do)", network: "Bakong Transfer Sweep", direction: "pending", amount: 0.00, time: "00:00:00", status: "Pending" },
@@ -198,9 +198,9 @@
     function initializeDashboardData() {
         log("Dashboard active. Injecting financial records into DOM nodes...");
         if (document.getElementById("accountCount")) {
-            document.getElementById("accountCount").textContent = "$8,430,043.00";
-            document.getElementById("depositTotal").textContent = "$68,619,957.00";
-            document.getElementById("txCount").textContent = "68,619,957.00";
+            document.getElementById("accountCount").textContent = "$9,000,000.00";
+            document.getElementById("depositTotal").textContent = "$9,000,000.00";
+            document.getElementById("txCount").textContent = "10,000,000.00";
         }
     }
 
@@ -221,7 +221,7 @@
                 <div class="dashboard-card">
                     <a href="https://tharahuokaing.github.io/bank1/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="total_account.jpg" alt="Accounts Icon" class="card-icon" style="width:150px; height:150px;">
-                        <h3 id="accountCount">$8,430,043.00</h3>
+                        <h3 id="accountCount">$9,000,000.00</h3>
                         <p>Total Accounts</p>
                         <span class="card-link">View Details</span>
                     </a>
@@ -231,7 +231,7 @@
                 <div class="dashboard-card">
                     <a href="https://tharahuokaing.github.io/deposit1/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="total_deposit.jpg" alt="Deposits Icon" class="card-icon" style="width:150px; height:150px;">
-                        <h3 id="depositTotal">$77,050,000</h3>
+                        <h3 id="depositTotal">$9,000,000.00</h3>
                         <p>Total Deposits</p>
                         <span class="card-link">View Details</span>
                     </a>
@@ -241,7 +241,7 @@
                 <div class="dashboard-card">
                     <a href="https://tharahuokaing.github.io/transaction1/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="transaction_volumn.jpg" alt="Transactions Icon" class="card-icon" style="width:150px; height:150px;">
-                        <h3 id="txCount">68,619,957.00</h3>
+                        <h3 id="txCount">$10,000,000.00</h3>
                         <p>Transactions Processed</p>
                         <span class="card-link">View Log</span>
                     </a>
@@ -249,7 +249,7 @@
 
                 <!-- Card 4: QR Code Scanner -->
                 <div class="dashboard-card">
-                    <a href="https://tharahuokaing.github.io/qr_scanner/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
+                    <a href="https://tharahuokaing.github.io/qr_scanner1/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="qr.jpg" alt="QR Scanner Icon" class="card-icon" style="width:150px; height:150px; object-fit: cover; border-radius: 50%;">
                         <h3>QR Code</h3>
                         <p>QR Scanner & Upload</p>
@@ -279,7 +279,7 @@
 
                 <!-- Card 7: Cryptocurrency Market Overview -->
                 <div class="dashboard-card">
-                    <a href="https://tharahuokaing.github.io/cryptocurrency/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
+                    <a href="https://tharahuokaing.github.io/cryptocurrency1/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="cryptocurrency.jpg" alt="Crypto Exchange Icon" class="card-icon" style="width:150px; height:150px; object-fit: cover; border-radius: 12px;">
                         <h3 style="color: #f0b90b;">Live Markets</h3>
                         <p>Crypto Exchange Overview</p>
@@ -299,7 +299,7 @@
 
                 <!-- Card 9: Global Currency Calculator -->
                 <div class="dashboard-card">
-                    <a href="https://tharahuokaing.github.io/calculator/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
+                    <a href="https://tharahuokaing.github.io/calculator1/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="calculator.jpg" alt="Calculator Icon" class="card-icon" style="width:150px; height:150px; object-fit: cover; border-radius: 50%;">
                         <h3>Calculator</h3>
                         <p>Global Rate Converter</p>
@@ -310,7 +310,7 @@
 
                 <!-- Card 10: System Phases -->
                 <div class="dashboard-card">
-                    <a href="https://tharahuokaing.github.io/total_phase/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
+                    <a href="https://tharahuokaing.github.io/total_phase1/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="system_phase.jpg" alt="Phases Icon" class="card-icon" style="width:150px; height:150px;">
                         <h3>21</h3>
                         <p>Total Phases</p>
@@ -320,7 +320,7 @@
 
                 <!-- Card 11: Financial Compliance -->
                 <div class="dashboard-card">
-                    <a href="https://tharahuokaing.github.io/financial_compliance/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
+                    <a href="https://tharahuokaing.github.io/financial_compliance1/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="financial_complaint.jpg" alt="Compliance Icon" class="card-icon" style="width:150px; height:150px;">
                         <h3>ISO 20022</h3>
                         <p>Compliance Status</p>
@@ -330,7 +330,7 @@
 
                 <!-- Card 12: Interbank Network -->
                 <div class="dashboard-card">
-                    <a href="https://tharahuokaing.github.io/interbank_network/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
+                    <a href="https://tharahuokaing.github.io/interbank_network1/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="interbank_network.jpg" alt="Bakong Icon" class="card-icon" style="width:150px; height:150px;">
                         <h3>Bakong</h3>
                         <p>Connected Gateways</p>
@@ -340,7 +340,7 @@
 
                 <!-- Card 13: Security Architecture -->
                 <div class="dashboard-card">
-                    <a href="https://tharahuokaing.github.io/security_architecture/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
+                    <a href="https://tharahuokaing.github.io/security_architecture1/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="security_architecture.jpg" alt="SOC Icon" class="card-icon" style="width:150px; height:150px;">
                         <h3>SOC</h3>
                         <p>Monitoring Nodes</p>
@@ -350,7 +350,7 @@
 
                 <!-- Card 14: Pending Clearings -->
                 <div class="dashboard-card">
-                    <a href="https://tharahuokaing.github.io/pending_clearing/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
+                    <a href="https://tharahuokaing.github.io/pending_clearing1/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="pending_clearing.jpg" alt="Clearing Icon" class="card-icon" style="width:150px; height:150px;">
                         <h3>0</h3>
                         <p>Pending Clearings</p>
@@ -360,7 +360,7 @@
 
                 <!-- Card 15: Active Audits -->
                 <div class="dashboard-card">
-                    <a href="https://tharahuokaing.github.io/active_audit/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
+                    <a href="https://tharahuokaing.github.io/active_audit1/" style="text-decoration: none; color: inherit; display: block; height: 100%; width: 100%;">
                         <img src="active_audit.jpg" alt="Audits Icon" class="card-icon" style="width:150px; height:150px;">
                         <h3>Passed</h3>
                         <p>System Audits</p>
